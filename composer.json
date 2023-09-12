@@ -1,0 +1,30 @@
+{
+    "name": "dannyvandersluijs/mail-inliner-playground",
+    "type": "project",
+    "require": {
+        "laravel/framework": "^10.22",
+        "fedeisas/laravel-mail-css-inliner": "^5.2",
+        "laravel/sanctum": "^3.3",
+        "laravel/tinker": "^2.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danny van der Sluijs",
+            "email": "danny.vandersluijs@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
